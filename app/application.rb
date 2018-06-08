@@ -5,6 +5,8 @@ class Application
 
     time = Time.now
 
+    resp.write "#{time}"
+
     if num_1==num_2 && num_2==num_3
       resp.write "You Win"
     else
