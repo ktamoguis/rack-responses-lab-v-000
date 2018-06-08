@@ -5,12 +5,13 @@ class Application
 
     time = Time.now
 
-    resp.write "#{time.hour}"
+    #resp.write "#{time.hour}"
 
     if time.hour > 12
       resp.write "Good afternoon!"
     else
       resp.write "Good morning!"
+    end
 
     #if num_1==num_2 && num_2==num_3
     #  resp.write "You Win"
