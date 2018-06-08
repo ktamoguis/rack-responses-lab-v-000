@@ -8,9 +8,9 @@ class Application
     #resp.write "#{time.hour}"
 
     if time.hour > 12
-      resp.write "Good afternoon!"
+      resp.write "Good Afternoon!"
     else
-      resp.write "Good morning!"
+      resp.write "Good Morning!"
     end
 
     #if num_1==num_2 && num_2==num_3
